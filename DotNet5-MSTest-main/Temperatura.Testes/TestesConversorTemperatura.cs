@@ -1,15 +1,17 @@
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Temperatura.Testes
 {
+    [TestClass]
     public class TestesConversorTemperatura
     {
-        [TestCase(32, 0)]
-        [TestCase(47, 8.33)]
-        [TestCase(86, 30)]
-        [TestCase(90.5, 32.5)]
-        [TestCase(120.18, 48.99)]
-        [TestCase(212, 00)]
+        [DataRow(32, 0)]
+        [DataRow(47, 8.33)]
+        [DataRow(86, 30)]
+        [DataRow(90.5, 32.5)]
+        [DataRow(120.18, 48.99)]
+        [DataRow(212, 0)]
+        [DataTestMethod]
         public void TesteConversaoTemperatura(
             double tempFahrenheit, double tempCelsius)
         {
