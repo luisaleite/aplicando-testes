@@ -20,7 +20,7 @@
 [InlineData(212, 100)]
 ```
 
-![Untitled](img\Untitled (7).png)
+![Untitled](img/Untitled%20(7).png)
 
 ## Segundo caso de teste com essas informações:
 
@@ -34,7 +34,7 @@
         [InlineData(212, 100)]
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61dd648e-b361-4730-9aba-30fc16889c48/71967e2b-abd9-4ad5-bcb6-6dc85358d4c2/Untitled.png)
+![Untitled](img/Untitled%20(9).png)
 
 *Foi trocado um valor intencionalmente para ver que os testes funcionam pois quando um valor da errado existe um erro sendo indicado
 
@@ -113,7 +113,7 @@ Este código é escrito em C# e usa a biblioteca de testes xUnit para testar a f
     [InlineData(212, 100)]
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61dd648e-b361-4730-9aba-30fc16889c48/9364fd60-f9f5-4c08-9cfb-fcd3a5640a3e/Untitled.png)
+    ![Untitled](img/Untitled%20(10).png)
     
     ## Segundo caso de teste com essas informações:
     
@@ -127,7 +127,7 @@ Este código é escrito em C# e usa a biblioteca de testes xUnit para testar a f
             [InlineData(212,00)]
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61dd648e-b361-4730-9aba-30fc16889c48/2716257a-70d6-4705-9bf7-9563daaee6c5/Untitled.png)
+    ![Untitled](img/Untitled%20(8).png)
     
     Este é um código de teste utilizando o framework NUnit para testar um conversor de temperatura de Fahrenheit para Celsius. 
     
@@ -187,7 +187,7 @@ Este código é escrito em C# e usa a biblioteca de testes xUnit para testar a f
     [InlineData(212, 100)]
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61dd648e-b361-4730-9aba-30fc16889c48/29b7545d-a186-4dd5-9890-4ad1f976e8b0/Untitled.png)
+    ![Untitled](img/Untitled%20(11).png)
     
 
 ## Segundo caso de teste com essas informações:
@@ -202,7 +202,7 @@ Este código é escrito em C# e usa a biblioteca de testes xUnit para testar a f
         [DataTestMethod]
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/61dd648e-b361-4730-9aba-30fc16889c48/59c86af4-12d8-495f-b4fe-ee31363ae633/Untitled.png)
+![Untitled](img/Untitled%20(12).png)
 
 Este código é um exemplo de um teste unitário escrito usando o framework de testes Microsoft.VisualStudio.TestTools.UnitTesting. Ele é usado para testar a conversão de temperaturas de Fahrenheit para Celsius em uma classe chamada ConversorTemperatura.
 
